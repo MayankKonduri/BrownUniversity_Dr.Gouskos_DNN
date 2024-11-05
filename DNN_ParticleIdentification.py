@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-# Create dummy data for the graph (replace this with your own data)
 def create_dummy_graph(num_nodes=100, input_dim=3, k=8):
     x = torch.randn((num_nodes, input_dim))  # Features for each node
     edge_index = knn_graph(x, k=k)  # Create kNN graph
@@ -37,7 +36,6 @@ class GraphDNN(torch.nn.Module):
         x = self.fc(x)  # Fully connected layer
         return F.log_softmax(x, dim=1)
 
-# Visualize the graph
 def visualize_graph(data, k=8):
     edge_index = data.edge_index.cpu().numpy()
     pos = {i: [data.x[i, 0].item(), data.x[i, 1].item()] for i in range(data.num_nodes)}
