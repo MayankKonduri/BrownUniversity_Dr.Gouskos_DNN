@@ -1,13 +1,24 @@
 # Graph-Based Deep Neural Network for k-Nearest Neighbors (kNN) Visualization
 
-This repository contains an implementation of a Graph Neural Network (GNN) using PyTorch Geometric, along with a method for visualizing k-nearest neighbor (kNN) graphs with `networkx` and `matplotlib`. The project is built in Python and can be executed in Google Colab or a local environment with GPU support.
+This repository contains an implementation of a Graph Neural Network (GNN) using PyTorch Geometric, along with a method for visualizing k-nearest neighbor (kNN) graphs using NetworkX and Matplotlib. The project is built in Python and can be executed in Google Colab or a local environment with GPU support.
 
 ## Features
+- **Graph Neural Network (GNN) Implementation**: Utilizes GCNConv layers for effective graph representation.
+- **kNN Graph Visualization**: Visualize k-nearest neighbor graphs using NetworkX for intuitive understanding of data relationships.
+- **Custom Data Generation**: Generate synthetic datasets or use your own dataset for flexibility in experimentation.
+- **Training and Evaluation Pipeline**: Complete pipeline with the capability to visualize graph structures during the training process.
 
-- Implementation of a Graph Neural Network (GNN) with `GCNConv` layers.
-- Visualization of k-nearest neighbor graphs using `networkx`.
-- Custom data generation or use your own dataset.
-- Training and evaluation pipeline with visualization of graph structures.
+## Particle Identification with Teacher Model
+
+This project also explores particle identification by leveraging a teacher model to enhance resolution accuracy. The teacher model provides high-quality guidance during training, allowing the student model to learn more effectively from complex datasets. This dual-model approach significantly improves the identification performance of particles in challenging scenarios, enabling more precise classifications based on graph representations.
+
+## Installation
+
+To install the required libraries, run:
+
+```bash
+pip install torch torchvision torchaudio torch-geometric networkx matplotlib
+
 
 ## Setup and Installation
 
