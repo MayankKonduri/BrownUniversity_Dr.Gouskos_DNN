@@ -26,14 +26,6 @@ To install the required libraries, run:
 ```bash
 pip install torch torchvision torchaudio torch-geometric networkx matplotlib
 
-
-## Setup and Installation
-
-Follow these steps to set up the environment and run the project:
-
-### Step 1: Clone the Repository
-
-```bash
 git clone https://github.com/yourusername/gnn-knn-visualization.git
 cd gnn-knn-visualization
 
