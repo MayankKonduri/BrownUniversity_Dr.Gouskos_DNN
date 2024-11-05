@@ -26,17 +26,14 @@ This project also explores particle identification by leveraging a teacher model
 
 [1]  Eric Eaton. *Using multiresolution learning for transfer in image classification.* (1):1–2, 2007.
 
-## Installation
+# Running the Code
 
 To install the required libraries, run:
 
 ```bash
 pip install torch torchvision torchaudio torch-geometric networkx matplotlib
-
 git clone https://github.com/yourusername/BrownUniversity_Dr.Gouskos_DNN.git
-
 ls
-
 python3 [Code To Be Compiled]
 
 
