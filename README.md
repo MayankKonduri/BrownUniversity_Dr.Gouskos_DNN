@@ -18,6 +18,8 @@ This project also explores particle identification by leveraging a teacher model
 
 [1]  Eric Eaton. *Using multiresolution learning for transfer in image classification.* (1):1–2, 2007.
 
+![image](https://github.com/user-attachments/assets/1bd22a69-a493-4055-b3f0-89012fd753fb)
+
 
 ## Installation
 
