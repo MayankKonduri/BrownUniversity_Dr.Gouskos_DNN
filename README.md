@@ -1,4 +1,4 @@
-# GouskosLab - 
+# GouskosLab Project Summary (January 2024 - Present)
 
 ## Graph-Based Deep Neural Network for k-Nearest Neighbors (kNN) Visualization
 
@@ -13,6 +13,11 @@ This repository contains an implementation of a Graph Neural Network (GNN) using
 ## Particle Identification with Teacher Model
 
 This project also explores particle identification by leveraging a teacher model to enhance resolution accuracy. The teacher model provides high-quality guidance during training, allowing the student model to learn more effectively from complex datasets. This dual-model approach significantly improves the identification performance of particles in challenging scenarios, enabling more precise classifications based on graph representations.
+
+## References
+
+[1]  Eric Eaton. *Using multiresolution learning for transfer in image classification.* (1):1–2, 2007.
+
 
 ## Installation
 
@@ -31,3 +36,5 @@ Follow these steps to set up the environment and run the project:
 ```bash
 git clone https://github.com/yourusername/gnn-knn-visualization.git
 cd gnn-knn-visualization
+
+
