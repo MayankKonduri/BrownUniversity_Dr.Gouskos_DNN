@@ -1,4 +1,4 @@
-# Graph-Based Deep Neural Network for k-Nearest Neighbors (kNN) Visualization
+## Graph-Based Deep Neural Network for k-Nearest Neighbors (kNN) Visualization
 
 This repository contains an implementation of a Graph Neural Network (GNN) using PyTorch Geometric, along with a method for visualizing k-nearest neighbor (kNN) graphs using NetworkX and Matplotlib. The project is built in Python and can be executed in Google Colab or a local environment with GPU support.
 
