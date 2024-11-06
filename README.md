@@ -15,7 +15,7 @@ This repository contains an implementation of a Graph Neural Network (GNN) using
 
 ## Particle Identification with Teacher Model
 
-This project also explores particle identification by leveraging a teacher model to enhance resolution accuracy. The teacher model provides high-quality guidance during training, allowing the student model to learn more effectively from complex datasets. This dual-model approach significantly improves the identification performance of particles in challenging scenarios, enabling more precise classifications based on graph representations.
+- This project also explores particle identification by leveraging a teacher model to enhance resolution accuracy. The teacher model provides high-quality guidance during training, allowing the student model to learn more effectively from complex datasets. This dual-model approach significantly improves the identification performance of particles in challenging scenarios, enabling more precise classifications based on graph representations.
 
 ![image](https://github.com/user-attachments/assets/1bd22a69-a493-4055-b3f0-89012fd753fb)
 ![download (2)](https://github.com/user-attachments/assets/d6cc8ac8-27eb-4c47-9b04-67f6c6b4fc2c)
