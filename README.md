@@ -1,4 +1,4 @@
-# GouskosLab Project Summary (January 2024 - Present)
+# GouskosLab Project Summary (January 2024 - Present) 
 
 > **Important Note:** This is not the entire code, cannot share all without approval.
 
