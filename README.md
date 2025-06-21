@@ -1,4 +1,4 @@
-# GouskosLab Project Summary (January 2024 - Present) 
+# GouskosLab Project Summary
 
 ## Graph-Based Deep Neural Network for k-Nearest Neighbors (kNN) Visualization
 
